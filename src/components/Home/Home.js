@@ -3,7 +3,6 @@ import Contact from '../Contact/Contact';
 import FakeData from '../FakeData/FakeData';
 import Footer from '../Footer/Footer';
 import MainHead from '../MainHead/MainHead';
-import Project from '../Project/Project';
 import SampleProject from '../Project/SampleProject';
 
 const Home = () => {

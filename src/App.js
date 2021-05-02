@@ -6,11 +6,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
-import Skills from './components/Skills/Skills';
 import FakeData from './components/FakeData/FakeData';
 import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
