@@ -1,0 +1,28 @@
+.single-data{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10vw;
+    grid-column-gap: 15px;
+    grid-row-gap:15px;
+}
+@media only screen and (max-width: 600px) {
+    .single-data {
+      grid-template-columns: auto;
+        margin-left:20vw;
+    
+      }
+  }
+  @media only screen and (min-width: 600px) {
+    .single-data {
+      grid-template-columns: auto auto;
+       
+    
+      }
+  }
+  @media only screen and (min-width: 800px) {
+    .single-data {
+      grid-template-columns: auto auto auto auto;
+        
+      }
+  }
+  

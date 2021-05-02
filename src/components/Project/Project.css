@@ -1,0 +1,32 @@
+.card-style{
+    margin: 3%;
+    background-color:aliceblue;
+    padding:10px;
+}
+.img-style{
+    height:200px;
+}
+.img-style{
+    transition-duration: 0.4s; 
+}
+.img-style:hover{
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 600px) {
+    .card-style {
+      
+        margin-left:20vw;
+    
+      }
+  }
+  .code-link {
+      border:1px solid green;
+      text-decoration: none;
+      padding:5px;
+      border-radius:5px;
+  }
+
+  .code-link:hover{
+    background-color:green;
+    color: aliceblue;
+  }

@@ -1,0 +1,16 @@
+ .skill-img{
+        transition-duration: 0.4s; 
+    }
+    .skill-img:hover{
+        transform: scale(1.1);
+    }
+/* .card-animation{
+    transition-duration: 0.4s;
+}
+.card-animation{
+    transform: scale(1.1);
+} */
+.card-animation:hover{
+        background-color:rgb(245,245,245);
+
+}

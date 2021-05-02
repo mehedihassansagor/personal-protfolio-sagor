@@ -1,0 +1,13 @@
+.resume{
+    border:"2px solid green";
+}
+h5 a{
+    color:green;
+}
+#resume-text{
+    color:green;
+}
+#resume-text:hover{
+background-color:green;
+color:white;
+}

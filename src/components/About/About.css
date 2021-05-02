@@ -1,0 +1,11 @@
+.about-link{
+    border: 1px solid green;
+    text-decoration: none;
+    margin-left: 20px;
+    padding:5px;
+    border-radius: 5px;
+}
+.about-link:hover{
+    background-color:green;
+    color:white;
+}

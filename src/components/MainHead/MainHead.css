@@ -1,0 +1,17 @@
+img{
+    width:600px
+}
+@media only screen and (max-width: 600px) {
+  .my-word{
+    text-align:center;
+      margin-top: 20vw;
+  }
+  }  
+
+  .main-head{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/bg1.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  
+  }
+ 
