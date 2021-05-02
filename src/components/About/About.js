@@ -29,9 +29,9 @@ const About = () => {
                 <div className="col-md-6 text-center mt-5">
                     <h5>Phone: 01856354435</h5>
                     <h5>Email: mehedihassansagor1641998@gmail.com</h5>
-                    <a target = "_blank" className="about-link" target = "_blank" href="https://github.com/Sagor6876778787">GitHub</a>
-                    <a target = "_blank" className="about-link" target = "_blank" href="https://www.linkedin.com/in/mehedi-hassan-sagor-a75878210/">Linkedin</a>
-                    <a target = "_blank" className="about-link" target = "_blank" href="https://www.facebook.com/sagor286">Facebook</a>
+                    <a target = "_blank" className="about-link" target = "_blank" href="https://github.com/Sagor6876778787" rel="noreferrer" >GitHub</a>
+                    <a target = "_blank" className="about-link" target = "_blank" href="https://www.linkedin.com/in/mehedi-hassan-sagor-a75878210/" rel="noreferrer">Linkedin</a>
+                    <a target = "_blank" className="about-link" target = "_blank" href="https://www.facebook.com/sagor286" rel="noreferrer">Facebook</a>
                 </div>
             </div>
 
