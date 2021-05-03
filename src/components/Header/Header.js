@@ -23,7 +23,7 @@ const Header = () => {
                 <h5> <a style={TextStyle} class="nav-link ms-5" href="/skills">Skills</a></h5>
               </li>
               <li class="nav-item">
-                <h5> <a style={TextStyle} class="nav-link ms-5" href="/project">Project</a></h5>
+                <h5> <a style={TextStyle} class="nav-link ms-5" href="/project">Projects</a></h5>
               </li>
               <li class="nav-item">
                 <h5> <a style={TextStyle} class="nav-link ms-5" href="/contact">Contact</a></h5>

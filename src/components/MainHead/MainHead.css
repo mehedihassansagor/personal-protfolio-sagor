@@ -9,9 +9,17 @@ img{
   }  
 
   .main-head{
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/bg1.png);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.9)), url(../images/bg1.png);
     background-repeat:no-repeat;
     background-size: cover;
   
+  }
+  .my-name{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    
+  }
+  .my-name:hover{
+    letter-spacing: 1px;
   }
  

@@ -52,7 +52,7 @@ const FakeData = () => {
     return (
         <div  >
             <div  className = ' text-center mt-5 pt-5'>
-             <h4> My skill in.....</h4> <h4 style={{marginTop:"10px"}}><TextLoop  interval={500}>
+             <h4> My skill in.....</h4> <h4 style={{marginTop:"10px"}}><TextLoop  interval={1500}>
                    {/* <span  style={{color: 'green',fontWeight:"900"}}>My skill</span> */}
                  <span style={{color: 'green',fontWeight:"900"}}>React</span>
                    <span style={{color: 'green',fontWeight:"900"}}>JavasScript</span>
