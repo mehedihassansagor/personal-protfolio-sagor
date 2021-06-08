@@ -2,6 +2,7 @@ import React from 'react';
 import champion from '../images/champion.PNG'
 import bdShop from '../images/bd-shop.PNG'
 import repair from '../images/service.png'
+import redux1 from '../images/redux1.PNG'
 import food from '../images/hungry.PNG'
 import './Project.css'
 import TextLoop from 'react-text-loop';
@@ -14,6 +15,7 @@ const Project = () => {
             <h3 style={{ marginTop: '100px' }}>My Projects are , <TextLoop interval={500}>
                 <span><span style={{ color: 'green', fontWeight: "700" }}>T</span>WO-WHEELER repair <span style={{ color: 'green', fontWeight: "700" }}>S</span>hop</span>
                 <span><span style={{ color: 'green', fontWeight: "700" }}>B</span>D-SHOP</span>
+                <span><span style={{ color: 'green', fontWeight: "700" }}>D</span>ev-Town</span>
                 <span><span style={{ color: 'green', fontWeight: "700" }}>C</span>hampion <span style={{ color: 'green', fontWeight: "700" }}>L</span>eague</span> </TextLoop></h3>
             <div>
                 <div className="row mt-5"style={{borderTop:"3px solid salmon"}}>
@@ -85,15 +87,42 @@ const Project = () => {
 
                             <span>1.Here you get all kinds of food.</span>
                             <br />
-                            <span>2. You get resonable price here.</span>
+                            <span>2. You get reasonable price here.</span>
                             <br />
-                            <span>3. You can also find here foregin food also</span>
+                            <span>3. You can also find here foreign food also</span>
 
 
                             <div className="mt-4">
                                 <a target="_blank" href="https://github.com/Sagor6876778787/hungry" className="card-link code-link " >code</a>
                                 <a target="_blank" href="https://sagor6876778787.github.io/hungry/" className="card-link code-link " >Website</a>
 
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div className="row mt-5" style={{borderTop:"3px solid salmon"}}>
+                    <div className="col-md-6">
+                        <img style={{ height: '80%', width: '100%' }} src={redux1} alt="" />
+                    </div>
+                    <div className="col-md-6">
+                        <div className="text-center" style={{ marginLeft: '200px' }}>
+                            <h6 className="mt-5">Dev-Town</h6>
+
+                            <span>1. Hire developers from here.</span>
+                            <br />
+                            <span>2. Get world best developers </span>
+                            <br />
+                            <span>3. Hire fro intern also</span>
+                        
+                            <div className="mt-4">
+                                <a target="_blank" href="https://github.com/Sagor6876778787/team-work" className="card-link code-link " >code</a>
+                
+                                <a target="_blank" href="https://elegant-raman-ce9abf.netlify.app/" className="card-link code-link " >website</a>
 
                             </div>
 
